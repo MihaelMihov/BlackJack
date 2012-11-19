@@ -44,15 +44,15 @@ public class BlackJackGui {
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		//new draw panel
 		drawPanel = new DrawFrame();
-		drawPanel.setBounds(0, 0, 600, 500);
+		drawPanel.setBounds(0, 0, 1024, 768);
 		drawPanel.setLayout(null);
 		
 		frame.getContentPane().setLayout(null);
 		frame.getContentPane().add(drawPanel);
-		frame.setSize(600,500);
+		frame.setSize(1024,768);
 		frame.setVisible(true);
 		//add new game button to panel
-		JButton newGameButton = new JButton("NEW GAME");
+		JButton newGameButton = new JButton("op GAME");
 		newGameButton.setBounds(145, 415, 100, 35);
 		drawPanel.add(newGameButton);
 		//add hit button to panel
